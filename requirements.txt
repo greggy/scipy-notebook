@@ -1,0 +1,10 @@
+ipython[all]
+pyzmq
+Pillow
+numpy
+scipy
+scikit-learn
+matplotlib
+pandas
+seaborn
+jupyter
