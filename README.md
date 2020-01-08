@@ -8,13 +8,26 @@ Scipy stack includes:
 - pandas
 - ta-lib
 - seaborn
+- ib_insync
+- IB API 9.76
 
-To build image, just run:
-```
-docker build -t scipyserver .
-```
-
-To run it:
+To run image for the first time:
 ```
 make run
 ```
+
+then you can use stop & start:
+```
+make stop
+```
+and
+```
+make start
+```
+
+Open url:
+```
+http://localhost:8888/
+```
+
+Default password is `test`.
