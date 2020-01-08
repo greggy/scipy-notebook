@@ -7,3 +7,8 @@ cd ta-lib
 make
 make install
 pip install TA-lib
+
+wget http://interactivebrokers.github.io/downloads/twsapi_macunix.976.01.zip && \
+	unzip twsapi_macunix.976.01.zip && \
+	cd ./IBJts/source/pythonclient/ && \
+	python setup.py install

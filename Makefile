@@ -3,7 +3,7 @@ NAME=scipy
 
 run:
 	$(DOCKER) rm $(NAME)
-	$(DOCKER) run -d -v /home/greg/notebooks:/notebooks -p 8080:8888 -e "PASSWORD=test" --name $(NAME) scipyserver
+	$(DOCKER) run -d -v $(shell pwd)/pages:/notebooks -p 8888:8888 -e "PASSWORD=test" --name $(NAME) greg45/scipy
 
 start:
 	$(DOCKER) start $(NAME)
