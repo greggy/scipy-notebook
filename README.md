@@ -31,3 +31,8 @@ http://localhost:8888/
 ```
 
 Default password is `test`.
+
+If you want to connect to TWS from your container, just add ip address to trusted ips. To get neede ip, run:
+```
+make ip
+```

@@ -13,3 +13,5 @@ stop:
 
 attach:
 	$(DOCKER) exec -it $(NAME) /bin/bash
+ip:
+	$(DOCKER) inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' $(NAME)
