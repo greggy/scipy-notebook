@@ -10,6 +10,7 @@ Scipy stack includes:
 - seaborn
 - ib_insync
 - IB API 9.76
+- finta
 
 To run image for the first time:
 ```
