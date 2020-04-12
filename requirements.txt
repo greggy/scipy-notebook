@@ -10,4 +10,4 @@ seaborn
 jupyter
 requests
 ib_insync
-finta
+pyfolio
